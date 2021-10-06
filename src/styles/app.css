@@ -1,0 +1,33 @@
+.main {
+  background-color: rgb(36, 41, 46);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+button.musicButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 200;
+  background-color: rgb(36, 41, 46);
+  border-color: rgb(56, 71, 76);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+button.soundButton {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  z-index: 200;
+  background-color: rgb(36, 41, 46);
+  border-color: rgb(56, 71, 76);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
